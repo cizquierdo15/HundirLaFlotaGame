@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <script src="validacionFormulario.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="estilosFormu.css" media="screen" />
+</head>
+<body>
+<h2> Formulario de registro </h2>    
+ <fieldset>
+        <legend>Nuevo Jugador</legend>
+        <form name="formulario" id="idFormulario" action="tablero.html" method="get">
+            <label for="idNombre">Nombre:</label>
+            <input type="text" name="nombre" id="idNombre" required />            
+            <spam id="idNombreError"class="errorSpam"></spam>
+            <br>
+            <br>
+            <label for="idApellidos">Apellidos:</label>
+            <input type="text" name="apellidos" id="idApellidos" required/>
+            <spam id="idApellidosError" class="errorSpam"></spam>
+            <br>
+            <br>
+            <label for="idEdad">Edad:</label>            
+            <input type="number" id="idEdad" name="edad" min="18" max="100" required>
+            <spam id="idEdadError" class="errorSpam"></spam>
+            <br>     
+            <br>            
+            <input type="reset" name="limpiar" id="idLimpiar" value="Limpiar" />
+            <input type="submit" name="enviar" id="idEnviar" value="Enviar" />
+        </form>
+    </fieldset>
+</body>
+</body>
+</html>

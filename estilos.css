@@ -1,0 +1,47 @@
+body{
+	background: linear-gradient(to bottom,orange,salmon,lightblue);
+}
+
+h1{
+	text-align: center;
+	background-color: darkcyan;
+	color: darkblue;
+	width: 50%;
+	border-radius:0 10px 10px 0;
+	box-shadow: 5px 6px 3px steelblue;
+	margin: 20px auto;
+	padding: 10px 0;
+}
+
+table {
+	margin:30px auto;
+	width: 50%;
+	height: 300px;
+	border-radius: 7px;
+	box-shadow: 5px 6px 3px darkgrey;
+}
+
+td{
+	background-color: #3059cf;
+	border-radius: 7px;
+	height: 55px;
+
+}
+
+td:hover{
+	background-color: #1b06bd;
+}
+
+.colores{
+	background-color: yellow;
+}
+
+#puntuaciones{
+	padding:0.2em;
+	color: steelblue;
+}
+
+
+#TPuntuanciones{
+	background-color:lightgrey; 
+}
